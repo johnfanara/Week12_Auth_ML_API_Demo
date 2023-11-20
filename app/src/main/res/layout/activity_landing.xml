@@ -29,7 +29,7 @@
             android:layout_weight="1"
             android:minWidth="30dp"
             android:layout_height="30dp"
-            android:id="@+id/load_iamge_btn"
+            android:id="@+id/load_image_btn"
             android:background="@drawable/ic_baseline_image_24"/>
     </LinearLayout>
 
@@ -40,6 +40,16 @@
         android:layout_below="@id/image_url_field"
         android:layout_marginTop="10dp"
         android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/labelsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_holder"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,6 +67,7 @@
             android:text="Text" />
 
         <Button
+            android:id="@+id/label_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.33"

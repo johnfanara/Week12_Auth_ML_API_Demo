@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852774719408",
+    "project_id": "bcs421hw-17f1e",
+    "storage_bucket": "bcs421hw-17f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852774719408:android:e0b82c72c4175deea55075",
+        "android_client_info": {
+          "package_name": "edu.farmingdale.alrajab.week12_auth_ml_api_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhFcRmNMLUxrT_aQQJ6Ffo5G62Uz-Y_HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
